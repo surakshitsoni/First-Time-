@@ -1,0 +1,51 @@
+body{
+background-color:grey;
+	font-size: 100%:;
+}
+h1{
+	font-size: 50px;
+	color: blue;
+}
+h1:hover{
+	color: red;
+	background-color: orange;
+	display:block;
+	box-sizing: border-box;
+	width: 300px;
+	padding: 10px pink;
+	border: 8px dashed black;
+	margin: 10px;
+	cursor: crosshair;
+}
+
+.boxthing{
+	background-color: green;
+	font-size: 4em;
+	box-sizing: border-box;
+	width:500px;
+	padding 35px;
+	border: 20px solid black;
+	margin :10px ;
+}
+
+#randomlines{
+		color: lightblue;
+		font-size: 4em;
+		text-align: center;
+		text-decoration: underline;
+		font-style: italic;
+		border: 10px solid yellow;
+		box-sizing: border-box;
+		width: 600px;
+		margin :0px 0px 0px 500px;
+		background-color: orange;
+		padding: 20px;
+		letter-spacing: 0.5px;
+		
+}
+
+
+.boxthing:hover{
+	background-color: pink;
+	cursor: pointer;
+}
