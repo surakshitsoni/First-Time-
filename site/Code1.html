@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>The Box Sizing</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>columns</title>
+
+	<style >
+		h1{
+			font-size: 150%;
+			color: blue;
+		}
+		div{
+			background-color: lightblue;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+		
+		p{
+			font-size: 175%;
+			width: 50%;
+			border: 1px black solid;
+			float :left;
+		}
+
+		#p1{
+			background-color :red;
+
+		}
+		#p2{
+			background-color : orange;
+		}
+		section{
+			clear:right;
+		}
+	</style>
 </head>
 <body>
-<h1>The Box Sizing</h1>
-<div class="boxthing">Here we Learn to use padding , margins , borders and box-sizing = box-border</div>
-
-<div id="randomlines">Lets put a div inside
-		<div>another div and use CSS.</div></div>
-
+<h1>I am going to write 2 paragraphs:</h1>
+<div>
+<p id="p1">I am writing random shit just to make the text bigger and in order to make it more bigger i am going to write more shit.</p>
+<p id="p2">This paragraph is again full of shit and makes no sense what so ever.I am just doing this so that i can visually see two paragraphs.I think this is enough for my purpose so i am going to stop typing....</p>
+<section>The text ends here....</section>
+</div>
 </body>
 </html>
