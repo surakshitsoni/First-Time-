@@ -1,29 +1,46 @@
 h1{
-			font-size: 150%;
-			color: blue;
-		}
-		div{
-			background-color: lightblue;
-		}
+	font-size: 150%;
+	color: green;
+}
 
-		* {
-			box-sizing: border-box;
-		}
-		
-		p{
-			font-size: 175%;
-			width: 50%;
-			border: 1px black solid;
-			float :left;
-		}
+p{
+	border: 2px solid black;
+	margin: 2px;
+}
 
-		#p1{
-			background-color :red;
+#p1{
+	background-color: maroon;
+	width: 150px;
+	height: 150px;
+	float : right;
+}
+#p2{
+	background-color: orange;
+	width: 50px;
+	height: 50px;
+}
 
-		}
-		#p2{
-			background-color : orange;
-		}
-		section{
-			clear:right;
-		}
+@media (min-width: 1200px){
+	#p1{
+		background-color: yellow;
+		width: 80%;
+		float: right;
+	}
+	#p2{
+		width : 50%;
+		clear: right;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	#p1{
+		background-color: lightblue;
+		width: 50%;
+		float :right;
+	}
+	#p2{
+		background-color: pink;
+		width: 25%;
+	}
+
+}
